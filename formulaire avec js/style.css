@@ -1,0 +1,43 @@
+body {
+        margin: 20px 30px;
+    width: 400px;
+}
+fieldset{
+    border-radius: 10px;
+    border-color: black;
+    background-color:rgb(219, 173, 19);
+    
+}
+
+
+.container {
+display: grid;
+grid-template-columns: auto auto;
+gap: 10rem;
+padding: 50px;
+
+width: 70%;
+height:40%;
+display: flex;
+    justify-content: center;
+
+}
+.items{
+    grid-template-rows: auto auto auto auto auto auto ;
+gap: 10rem;
+}
+.items2{
+    padding: 10px;
+
+}
+.items1{
+    margin: 10px;
+}
+.items4{
+    padding: 40px;
+
+}
+#items5{
+margin-left: 25px;
+    padding: 0px;
+}
